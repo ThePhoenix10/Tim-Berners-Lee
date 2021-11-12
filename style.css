@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+    padding-top: 550px;
+    text-align: center;
+}
+#pic{
+    border-radius: 50%;
+     height: 200px;
+     width: 200px;
+}
+#welcome{
+    position: absolute;
+    bottom: 0;
+    height: 550px;
+    background: linear-gradient(#00BFFF,#00FF00);
+    height: 100%;
+    width: 100%;
+    display: table;
+}
+.content{
+    vertical-align: middle;
+    display: table-cell;
+}
+#bio{
+    padding: 100px;
+}
+#menu{
+    width: 100%;
+    background-color: white;
+    position: fixed;
+    top: 0px;
+    margin-top: 0px;
+    z-index: 10;
+    list-style: none;
+}
+.link{
+    display: inline;
+    padding-right: 20px;
+    font-size: 25px;
+    font-family: 'Ceviche One', cursive;
+    color: red;
+}
+.link:hover{
+    border-radius: 10px;
+    color: royalblue;
+    border: 2.5px;
+    border-style: dashed;
+}
+#contact_1 h3{
+    display: inline;
+}
